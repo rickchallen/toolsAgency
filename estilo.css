@@ -1,0 +1,100 @@
+button{
+   
+     width: 200px;
+     height: 80px;
+     border-top-right-radius: 30%;
+     border-top-left-radius: 30%;
+     border-top-left-radius: 30%;
+     border-bottom-left-radius: 10%;
+     border-bottom-right-radius: 10%;
+}
+
+body{ background-color: lightblue;
+
+     text-align: center;
+}
+
+#grid{
+
+   display: grid;
+   
+   grid-template-columns: repeat(4,200px);
+   grid-template-rows: repeat(2,100px);  
+    grid-gap: 10px;
+   text-align: center;
+    justify-content: center;
+   
+}
+
+.sessao{
+    
+    
+
+}
+
+#grid2{
+
+     display: grid;
+     grid-template-columns: repeat(4,200px);
+     grid-gap: 10px;
+     justify-content: center
+}
+
+#grid3{
+     display: grid;
+     grid-template-columns: repeat(3,200px);
+     grid-gap: 10px;
+     justify-content: center;
+
+}
+
+li{
+
+   list-style: none;
+   text-decoration: none;
+   font-size: 25px;
+   color: -webkit-linear-gradient(left, #20908c, #000000);
+
+}
+
+h2{
+   font-family: "Jazz LET",sans-serif; 
+   
+ 
+}
+
+.cores{
+    color: lightblue;
+}
+
+a{
+  text-decoration: none;
+  grid-template-columns: repeat(3,180px);
+  font-family: "Impact"; 
+  color: #5F9EA0;
+ 
+  
+}
+
+a:visited{
+    color: Navy;
+
+}
+
+button:hover{
+     transition: 2s ease-in-out;
+     background-color: #F5FFFA;
+     transform: scale(2)
+}
+
+
+body{
+
+            
+background: -webkit-linear-gradient(left, #20908c, #000000);
+background: -moz-linear-gradient(left, #20908c, #000000);
+background: -ms-linear-gradient(left, #20908c, #000000);
+background: -o-linear-gradient(left, #20908c, #000000);
+background: linear-gradient(to right, #20908c, #000000);
+
+}

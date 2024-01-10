@@ -1,0 +1,33 @@
+linear-gradient(left, #20908c, #000000);
+
+
+#5F9EA0
+
+#6A5ACD
+
+color: Navy;
+
+
+a:visited{
+    color: Navy;
+
+}
+
+ color: #5F9EA0; ultimo
+
+
+
+a:visited{
+    color: Navy;
+
+}
+
+
+
+button:hover{
+
+     background-color: #FFFAFA;
+}
+
+
+https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb
